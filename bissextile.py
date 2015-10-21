@@ -3,7 +3,7 @@
 
 # Programme testant si une année, saisie par l'utilisateur, est bissextile ou non
 
-#on importe le module os pour dialoguer avec notre systeme exploitation
+# on importe le module os pour dialoguer avec notre systeme exploitation
 import os
 
 # On attend que l'utilisateur saisisse l'année qu'il désire tester
