@@ -3,16 +3,16 @@
 
 import os
 
-#demande a l'utilisateur de saisir une chaine de caractere
+# demande a l'utilisateur de saisir une chaine de caractere
 votreChaine=input("Entrez votre chaine de caractère : ")
 
-#enleve les espaces de la phrase
+# enleve les espaces de la phrase
 votreChaine=votreChaine.replace(' ','')
 
-#calcul de la longueur de la chaine
-#puis savoir ou est la moitie de la chaine pour comparer
-#le premier avec le dernier caractere puis le 2eme caractere avec
-#l'avant dernier
+# calcul de la longueur de la chaine
+# puis savoir ou est la moitie de la chaine pour comparer
+# le premier avec le dernier caractere puis le 2eme caractere avec
+# l'avant dernier
 longueur=len(votreChaine)
 moitie=longueur//2
 
